@@ -1,0 +1,723 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	
+}
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#inner-main{
+	min-height: 1000px;
+}
+
+.container {
+	margin: auto;
+	max-width: 1200px;
+}
+
+.mini-container {
+	margin: auto;
+	max-width: 600px;
+}
+
+header {
+	background-color: #290000;
+}
+
+header #top-links-right li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px 0 0;
+}
+header #top-links-right li a{
+	color: #fff;
+	text-decoration: none;
+}
+#inner-wrapper {
+
+}
+aside {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	border: 1px solid #000;
+	border-top:none;
+}
+aside #aside-left {
+
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+.top-sertch {
+	width: 49%;
+	text-align: right;
+	display: inline-block;
+	line-height: 50px;
+}
+
+#top-links-right {
+	padding: 5px;
+	margin: 0 0 0 10px;
+	text-align: right;
+}
+
+nav {
+	background-color: #750000;
+}
+
+nav ul {
+	list-style: none;
+
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 0 1px 0 0;
+}
+
+nav ul a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav li > ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	z-index: 1;
+	background-color: #292929;
+}
+
+nav li:hover > ul{display: block;}
+
+nav li > ul li {padding: 0; border-top: 1px solid grey; }
+nav li > ul li > ul {
+	left: 100%;
+	top: 0;
+	padding:  0 0 0 1px;
+} 
+
+nav li > ul li > ul li{
+	width: 100px;
+}
+
+nav li:hover > a {
+	background-color: #292929;
+}
+
+/* Nav dropdown 
+--------------*/
+
+
+
+
+
+
+
+/* End Header styling
+-------------------*/
+
+
+
+/* Style slideshow homepage content
+----------------------------------*/
+#slideshow { 
+	display: inline-block;
+	position: relative;
+	left: 14.3%; 
+	width: 55.5%; 
+	height: 300px; 
+	padding: 10px;  
+	outline: 1px solid red;
+	margin:40px 0 0 0;
+}
+
+#slideshow > div { 
+    position: absolute;  
+}
+
+/* End slideshow style
+---------------------*/
+
+/* Clipp
+-------*/
+iframe {
+	width: 100%;
+}
+#clipp{
+	float: right;
+	width: 20%;
+}
+
+
+/* Info About page
+-----------------*/
+#info {
+	width: 72%;
+	margin: auto; 
+}
+
+
+/* style products homepage
+-------------------------*/
+.align-products{
+	display: inline-block;
+	text-align: center;
+	margin-right: 50px;
+	width: 250px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.make-left {
+	text-align: left;
+	margin: 0px auto;
+	width: 72%; 
+}
+
+#Random-product{
+
+}
+
+.last-randomproduct {
+}
+
+/* Style aside left 
+------------------*/
+
+aside #Categoris {
+
+}
+
+aside #Categoris p{
+	padding: 15px;
+	font-size: 23px;
+	border-bottom: 1px solid #000; 
+}
+aside #Categoris a{
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 10px 20px;
+	color: #000;
+	border-bottom: 1px solid #000; 
+}
+.display-inline{
+	display: inline-block;
+	width: 80%;
+}
+aside #Categoris a:hover {
+	color:#fff;
+}
+
+
+aside #Categoris a:active {
+	color: #fff;
+}
+
+aside #Categoris li:hover{
+    background-color: #6DB000;
+    border-width: 0px 0px 2px;
+    border-color: #4A8602;
+}
+
+aside #Categoris li:active{
+	    background-color: #6DB000;
+    border-width: 0px 0px 2px;
+    border-color: #4A8602;
+}
+
+aside #Categoris li {
+	list-style: none;
+}
+/* Style footer
+--------------*/
+footer {
+	background-color: #290000;
+	width: 100%;
+}
+
+footer p{
+	color: #fff;
+}
+
+footer #menu-footer ul{
+	display: inline-block;
+	list-style: none; 
+	margin: 30px;
+}
+
+footer #menu-footer ul li{
+	text-align: left;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+}
+
+/* cart
+------*/
+#productsName {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+#products-info {
+	width: 49%;
+	display: inline-block;
+	text-align: right;
+}
+#productsName p{
+	text-align: left;
+}
+.vert-align{
+	height: 632px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.vert-align .linked {display: inline-block; width: 40%;}
+
+.vert-align select{
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 0 0 60px;
+}
+.name-cat{width: 90%;}
+.vert-align .create_sub_name {
+	padding: 10px;
+	border-radius: 5px;
+}
+.vert-align label{font-size: 22px; font-weight: bold; width: 50%;}
+#align-name-cat{width: 100%;}
+.vert-align .form-control{
+	height: 234px;
+	width: 663px;
+}
+.vert-align #desc{
+	font-size: 22px;
+	text-align: center;
+	width: 665px;
+}
+.vert-align .btn-sub{
+	padding: 10px;
+	width: 100%;
+	font-size: 18px;
+}
+#products-info p{
+	text-align: right;
+	display: inline-block;
+	margin:0 0 0 40px;
+}
+.inner-prod-cart {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#totalCart{
+	display: inline-block;
+	text-align: right;
+	margin-left: auto;
+	width: 89.4%; 
+}
+
+#continer-shopping-btn{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.prod-cart-info{
+	width: 49%;
+	display: inline-block;
+	text-align: right;
+}
+
+.getProd img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+.getProd h3{
+	display: inline-block;
+}
+.getProd p{
+	display: inline-block;
+	margin-right: 70px;
+}
+
+#paypal-right{
+	text-align: right;
+}
+
+/*End cart
+---------*/
+
+
+
+/* Product page
+--------------*/
+
+#page-header p{
+	font-size: 27px;
+	margin-top: 10px;
+}
+
+.getProduct-info-p{
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	width: 25%;
+}
+
+.getProduct-info-p img{
+		margin: 40px 0 0 0;
+	width: 200px;
+	height: 270px;
+	text-align: center;
+}
+
+.getProduct-info img{
+	margin: 40px 0 0 0;
+	width: 200px;
+	height: 270px;
+	text-align: center;
+}
+.getProduct-info{
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#product_page {
+	display: inline-block;
+	width: 70%;
+	text-align: left;
+	width: 80%;
+}
+
+/* Forum cat
+-----------*/
+
+#forum-center {
+	text-align: left;
+	width: 80%;
+	display: inline-block;
+	margin: 40px 0 0 0;
+}
+.center {
+	width: 50%;
+	margin: auto; 
+}
+
+#forum-center a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	font-weight: bold;
+	margin: 0px 10px 0px 0;
+}
+
+.cat-forum{
+
+}
+
+#forum-center p {
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+#forum-center a:hover{
+	color: red;
+}
+
+
+/* About us page
+---------------*/
+
+#info-aboutus{
+	display: inline-block;
+	width: 70%; 
+	margin-left: 5.5%;
+}
+
+.float-right-element{
+
+}
+
+#info-aboutus p{
+	text-align: left;
+	font-size: 18px;
+	line-height: 35px;
+}
+#info-aboutus h5 {
+	font-size: 23px;
+	text-decoration: underline;
+}
+
+#bild-aboutUs {
+	width: 100%;
+	height: 300px;
+}
+
+/* Contact us page
+-----------------*/
+
+.wrap-contact-us {
+	display: inline-block;	
+	width: 70%;
+}
+
+#fly-header{
+	margin: 0 auto;
+	
+}
+#fly-inner {
+	
+	width: 50%;
+	margin: 0 auto;
+}
+
+#fly-inner ul li{
+	list-style: none;
+}
+/* Product page
+----------------*/
+label{
+	display: inline-block;
+}
+.sort-first {
+	font-weight: bold;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 60px;
+    background-color: #EFEFEF;
+    padding: 2px 0;
+    color: #3b3b3b;
+}
+
+.sort-by{
+	background-color: #fff;
+	padding: 6px;
+	color: #000;
+	text-decoration: none;	
+	padding: 2px 14px;
+    display: block;
+        border: 1px solid #d0d0d0;
+}
+.sort-by:hover {
+	background-color: #6DB100;
+	color: #fff;
+}
+.sort-by:active{
+	background-color: #6DB100;
+}
+
+.sort-last:hover{background-color: #6DB100}
+.sort-last:active{background-color: #6DB100}
+
+.sort-last {
+	text-decoration: none;
+	color: #000;
+	    border: 1px solid #d0d0d0;
+	padding: 2px 14px;
+    display: block;
+}
+
+.center {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#page-header {
+	margin-left:10%; 
+}
+
+.getProduct-info p{
+	text-align: center;
+    color: #6DB100;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 16px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.getProduct-info-p p{
+	text-align: center;
+    color: #6DB100;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 16px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.getProduct-info-p input {
+	margin: 0;
+    display: block;
+    color: #FFFFFF;
+    background-color: #6DB000;
+    border-width: 0px 0px 2px;
+    border-color: #4A8602;
+    border-style: solid;
+    font-size: 24px;
+    padding: .25em .5em;
+    line-height: 1.25em;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    width: 100%;
+    font-weight: normal;
+    font-family: 'Lato',san-serif;
+}
+
+
+.getProduct-info input {
+	margin: 0;
+    display: block;
+    color: #FFFFFF;
+    background-color: #6DB000;
+    border-width: 0px 0px 2px;
+    border-color: #4A8602;
+    border-style: solid;
+    font-size: 24px;
+    padding: .25em .5em;
+    line-height: 1.25em;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    width: 100%;
+    font-weight: normal;
+    font-family: 'Lato',san-serif;
+}
+
+.header-banner img {
+	width: 90%;
+	display: block;
+	margin: 20px 0px 20px 10%;
+}
+
+.info-prodcutpage{
+	width: 80%;
+	margin: auto;
+}
+
+/* Product id
+------------*/
+
+.align-page{
+	width: 80%;
+	display: inline-block;
+}
+
+#align-img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#align-img img {
+	width: 400px;
+	height: 300px;
+	
+}
+
+.prod-info{
+	display: inline-block;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+.prod-info p{
+	text-align: left !important;
+}
+
+.desc-info p{
+	text-align: left;
+	line-height: 40px;
+}
+
+.customers-review p { 
+}
+
+.align-text-left{
+	text-align: left !important;
+}
+
+/* Froum Id
+----------*/
+
+#inner-wrapper-forum{
+	display: inline-block;
+	width: 80%;
+}
+
+#forum-id{
+	width: 70%;
+	margin: auto;
+}
+
+#forum-id a{
+	text-decoration: none;
+	display: inline-block;
+	color: red;
+}
+#forum-id a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.fly-cat{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#forum-id p{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#forum-id  input {
+	padding: 10px;
+	width: 10%;
+	display: inline-block;
+}
+
+.wrap-content{
+	display: inline-block;
+	width: 80%;
+}
+
+
+/* Terms and condition
+---------------------*/
+.inner-wrapper{
+	display: inline-block;
+    text-align: left;
+    width: 80%;
+}
